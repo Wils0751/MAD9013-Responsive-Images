@@ -1,0 +1,45 @@
+
+html {
+  box-sizing: border-box;
+  background-color: purple;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -- Baseline Elements --*/
+body{ 
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+h1{
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+ul{
+	list-style: none;
+	
+}
+li{
+	float:left;
+}
+
+.wrapper{
+  max-width: 1250px;
+  margin: 0 auto;
+}
+img, picture{
+	max-width: 100%;
+	padding: 0.5rem;
+}
+
+
